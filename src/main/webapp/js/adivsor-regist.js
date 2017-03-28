@@ -114,20 +114,20 @@ function uploadPic() {
 																	"advisorName" : advisorName,
 																	"password" : pwd,
 																	"phoneNumber" : phoneNumber,
-																	"picture" : picture,
+																	"picture" : picture
 																},
 																dataType : "json",
 																success : function(
 																		result) {
 																	if (result.code == 1) {
-																		alert("注册成功！");
+																		alert("注册成功！")
 																	}
 																},
 																error : function() {
 
 																}
-															});
+															})
 												}
-											});
+											})
 
 				});

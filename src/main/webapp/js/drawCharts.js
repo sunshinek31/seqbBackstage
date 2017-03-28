@@ -24,7 +24,7 @@ $(function () {
 			        xAxis: {
 			            categories: []
 			        },
-			        yAxis: { 
+			        yAxis: {
 			            title: {
 			                text: ''
 			            },
@@ -61,11 +61,11 @@ $(function () {
 				data.series[2].data[i]=getSum(i,advisors);
 				data.series[3].data[i]=getSum(i,orders);
 			}
-		    $('#myChart').highcharts(data);	 
+		    $('#myChart').highcharts(data);
 		},
 		error:function(){
-			alert("系统异常！");
+//			alert("系统异常！");
 		}
 	})
-	
+
 });
